@@ -1,0 +1,501 @@
+case_id,stage,missing_requirements,upload_attempts,error,case_date
+KYC-0001,Registration,1,0,None,2026-09-09
+KYC-0002,Registration,0,5,File too large,2026-10-08
+KYC-0003,Bank Verification,1,0,None,2026-10-03
+KYC-0004,Human Review,3,2,None,2026-09-15
+KYC-0005,Bank Verification,1,1,File too large,2026-09-28
+KYC-0006,Address Verification,0,1,None,2026-09-06
+KYC-0007,Bank Verification,2,2,None,2026-09-03
+KYC-0008,Bank Verification,2,0,None,2026-09-24
+KYC-0009,Human Review,1,0,None,2026-09-19
+KYC-0010,Registration,3,1,Unreadable document,2026-09-18
+KYC-0011,Bank Verification,1,3,File too large,2026-09-24
+KYC-0012,Address Verification,0,2,None,2026-10-09
+KYC-0013,PAN Verification,3,0,None,2026-09-25
+KYC-0014,Address Verification,1,5,Upload timeout,2026-09-21
+KYC-0015,Registration,3,1,None,2026-09-18
+KYC-0016,Registration,2,2,None,2026-09-14
+KYC-0017,Bank Verification,2,0,None,2026-09-09
+KYC-0018,PAN Verification,2,5,Unsupported format,2026-10-08
+KYC-0019,Bank Verification,2,4,Unreadable document,2026-09-15
+KYC-0020,PAN Verification,0,0,None,2026-09-10
+KYC-0021,PAN Verification,0,4,Unsupported format,2026-09-25
+KYC-0022,Bank Verification,2,4,File too large,2026-10-06
+KYC-0023,Registration,2,1,File too large,2026-09-22
+KYC-0024,Registration,0,1,None,2026-09-17
+KYC-0025,Human Review,0,5,Unsupported format,2026-09-20
+KYC-0026,Human Review,2,2,File too large,2026-09-11
+KYC-0027,Human Review,0,5,Upload timeout,2026-10-09
+KYC-0028,Address Verification,2,1,None,2026-09-16
+KYC-0029,Registration,0,0,None,2026-10-02
+KYC-0030,Registration,1,5,Upload timeout,2026-09-09
+KYC-0031,Bank Verification,2,2,Upload timeout,2026-10-04
+KYC-0032,Human Review,1,2,None,2026-09-20
+KYC-0033,Bank Verification,3,3,Upload timeout,2026-10-04
+KYC-0034,Bank Verification,2,0,None,2026-09-02
+KYC-0035,Human Review,1,5,File too large,2026-09-01
+KYC-0036,Registration,1,1,Unsupported format,2026-09-05
+KYC-0037,Registration,1,1,Unreadable document,2026-09-18
+KYC-0038,Bank Verification,3,2,None,2026-09-16
+KYC-0039,Bank Verification,0,2,Unreadable document,2026-09-07
+KYC-0040,Bank Verification,0,1,None,2026-09-07
+KYC-0041,Registration,1,0,None,2026-09-13
+KYC-0042,PAN Verification,1,1,None,2026-09-18
+KYC-0043,Bank Verification,0,1,None,2026-09-04
+KYC-0044,Human Review,1,1,Unreadable document,2026-09-11
+KYC-0045,Bank Verification,0,1,None,2026-09-11
+KYC-0046,Bank Verification,3,1,None,2026-09-19
+KYC-0047,Bank Verification,3,5,File too large,2026-09-10
+KYC-0048,PAN Verification,0,2,None,2026-09-21
+KYC-0049,Registration,1,2,None,2026-09-04
+KYC-0050,Human Review,0,0,None,2026-09-16
+KYC-0051,Bank Verification,0,0,None,2026-09-06
+KYC-0052,Bank Verification,2,5,File too large,2026-09-17
+KYC-0053,PAN Verification,1,3,File too large,2026-09-17
+KYC-0054,Bank Verification,2,1,None,2026-09-05
+KYC-0055,Registration,0,0,None,2026-10-05
+KYC-0056,PAN Verification,0,1,None,2026-09-16
+KYC-0057,Address Verification,2,2,None,2026-10-04
+KYC-0058,Registration,2,5,File too large,2026-09-07
+KYC-0059,PAN Verification,1,2,None,2026-09-18
+KYC-0060,Address Verification,1,3,File too large,2026-09-17
+KYC-0061,Human Review,3,0,None,2026-09-18
+KYC-0062,Registration,2,2,None,2026-09-11
+KYC-0063,Bank Verification,0,4,File too large,2026-09-08
+KYC-0064,Registration,0,2,Upload timeout,2026-09-24
+KYC-0065,Human Review,1,4,File too large,2026-09-03
+KYC-0066,Address Verification,1,1,None,2026-09-16
+KYC-0067,Registration,1,1,None,2026-09-16
+KYC-0068,PAN Verification,3,2,Upload timeout,2026-09-02
+KYC-0069,PAN Verification,3,3,Unsupported format,2026-09-16
+KYC-0070,Address Verification,0,1,None,2026-10-01
+KYC-0071,PAN Verification,2,1,None,2026-09-15
+KYC-0072,PAN Verification,2,1,None,2026-09-18
+KYC-0073,Registration,2,3,Upload timeout,2026-10-03
+KYC-0074,Bank Verification,2,5,File too large,2026-09-02
+KYC-0075,Registration,1,3,Unreadable document,2026-10-08
+KYC-0076,Address Verification,2,1,None,2026-09-21
+KYC-0077,Bank Verification,0,5,File too large,2026-09-25
+KYC-0078,Human Review,3,2,None,2026-09-01
+KYC-0079,Human Review,1,5,Upload timeout,2026-09-24
+KYC-0080,Bank Verification,2,2,None,2026-09-08
+KYC-0081,Address Verification,3,1,None,2026-09-19
+KYC-0082,Human Review,3,2,None,2026-09-12
+KYC-0083,Human Review,0,4,File too large,2026-09-20
+KYC-0084,Address Verification,2,2,None,2026-09-30
+KYC-0085,Bank Verification,3,2,None,2026-09-11
+KYC-0086,Registration,0,1,None,2026-09-16
+KYC-0087,Address Verification,0,0,None,2026-09-03
+KYC-0088,PAN Verification,0,5,Upload timeout,2026-09-30
+KYC-0089,Bank Verification,1,5,Unreadable document,2026-09-25
+KYC-0090,Bank Verification,0,2,None,2026-09-07
+KYC-0091,Bank Verification,0,1,None,2026-10-06
+KYC-0092,PAN Verification,3,1,Upload timeout,2026-09-09
+KYC-0093,Bank Verification,2,5,File too large,2026-09-29
+KYC-0094,Human Review,3,5,Unreadable document,2026-10-06
+KYC-0095,Bank Verification,3,4,Unreadable document,2026-09-17
+KYC-0096,PAN Verification,3,3,Unreadable document,2026-09-16
+KYC-0097,Address Verification,2,0,None,2026-09-22
+KYC-0098,Address Verification,1,1,Unreadable document,2026-09-10
+KYC-0099,PAN Verification,1,2,None,2026-09-05
+KYC-0100,Bank Verification,3,1,None,2026-09-04
+KYC-0101,PAN Verification,0,4,Unreadable document,2026-10-07
+KYC-0102,Bank Verification,3,1,None,2026-09-27
+KYC-0103,Human Review,1,5,Unsupported format,2026-10-02
+KYC-0104,PAN Verification,3,0,None,2026-09-22
+KYC-0105,Bank Verification,1,4,Unsupported format,2026-10-05
+KYC-0106,Registration,0,5,Upload timeout,2026-09-06
+KYC-0107,Bank Verification,0,0,None,2026-09-17
+KYC-0108,Bank Verification,2,1,None,2026-09-25
+KYC-0109,Address Verification,2,4,Unsupported format,2026-09-06
+KYC-0110,Bank Verification,2,0,None,2026-09-15
+KYC-0111,Registration,0,1,Unsupported format,2026-09-16
+KYC-0112,PAN Verification,1,5,Unreadable document,2026-09-16
+KYC-0113,PAN Verification,1,2,None,2026-09-30
+KYC-0114,Address Verification,0,2,Unsupported format,2026-09-11
+KYC-0115,Address Verification,3,1,None,2026-09-26
+KYC-0116,PAN Verification,2,0,None,2026-10-09
+KYC-0117,Registration,0,5,Unsupported format,2026-09-23
+KYC-0118,Human Review,2,0,None,2026-09-01
+KYC-0119,Bank Verification,3,1,Unreadable document,2026-09-24
+KYC-0120,Bank Verification,1,4,Unsupported format,2026-10-04
+KYC-0121,Address Verification,3,5,File too large,2026-09-30
+KYC-0122,Bank Verification,2,5,Unreadable document,2026-09-21
+KYC-0123,PAN Verification,2,1,Unreadable document,2026-09-29
+KYC-0124,PAN Verification,3,5,Unsupported format,2026-09-22
+KYC-0125,Registration,3,0,None,2026-09-14
+KYC-0126,Address Verification,2,3,Unsupported format,2026-10-09
+KYC-0127,Address Verification,1,5,File too large,2026-09-06
+KYC-0128,PAN Verification,1,4,Unsupported format,2026-10-01
+KYC-0129,Bank Verification,2,0,None,2026-09-15
+KYC-0130,Bank Verification,2,3,File too large,2026-10-01
+KYC-0131,Human Review,2,2,None,2026-09-23
+KYC-0132,Bank Verification,0,0,None,2026-09-13
+KYC-0133,Address Verification,1,2,None,2026-09-13
+KYC-0134,PAN Verification,2,3,Unsupported format,2026-09-07
+KYC-0135,PAN Verification,2,0,None,2026-09-01
+KYC-0136,Human Review,2,0,None,2026-09-09
+KYC-0137,Bank Verification,2,2,None,2026-10-01
+KYC-0138,Bank Verification,2,0,None,2026-10-01
+KYC-0139,Registration,3,4,Unreadable document,2026-09-05
+KYC-0140,Human Review,1,1,File too large,2026-09-10
+KYC-0141,Human Review,1,1,Upload timeout,2026-09-08
+KYC-0142,Human Review,1,5,Unsupported format,2026-10-04
+KYC-0143,Bank Verification,3,1,None,2026-09-20
+KYC-0144,Human Review,0,5,File too large,2026-09-14
+KYC-0145,PAN Verification,1,0,None,2026-09-12
+KYC-0146,Human Review,3,1,None,2026-10-09
+KYC-0147,Bank Verification,2,1,None,2026-09-30
+KYC-0148,Registration,1,3,File too large,2026-09-28
+KYC-0149,Registration,1,1,None,2026-09-05
+KYC-0150,Registration,2,2,None,2026-09-29
+KYC-0151,Registration,3,2,None,2026-09-18
+KYC-0152,Human Review,0,0,None,2026-09-28
+KYC-0153,Address Verification,0,1,File too large,2026-09-15
+KYC-0154,Human Review,2,1,File too large,2026-10-07
+KYC-0155,Registration,3,2,Unsupported format,2026-10-04
+KYC-0156,Bank Verification,3,2,Upload timeout,2026-10-02
+KYC-0157,Registration,2,1,None,2026-09-07
+KYC-0158,PAN Verification,3,1,None,2026-10-06
+KYC-0159,Registration,2,1,None,2026-09-08
+KYC-0160,Bank Verification,3,1,Unreadable document,2026-09-27
+KYC-0161,Registration,3,2,None,2026-09-29
+KYC-0162,Registration,2,0,None,2026-09-29
+KYC-0163,Bank Verification,1,0,None,2026-09-20
+KYC-0164,Human Review,1,0,None,2026-09-08
+KYC-0165,Bank Verification,3,2,Upload timeout,2026-09-19
+KYC-0166,Human Review,3,4,Unsupported format,2026-10-01
+KYC-0167,PAN Verification,1,1,None,2026-10-09
+KYC-0168,Human Review,0,2,Unsupported format,2026-09-18
+KYC-0169,Bank Verification,0,1,None,2026-09-19
+KYC-0170,Address Verification,3,5,Unreadable document,2026-09-10
+KYC-0171,Bank Verification,3,1,None,2026-09-30
+KYC-0172,Address Verification,3,2,Unreadable document,2026-09-15
+KYC-0173,Bank Verification,3,2,None,2026-09-25
+KYC-0174,PAN Verification,2,0,None,2026-09-07
+KYC-0175,Bank Verification,1,0,None,2026-09-27
+KYC-0176,PAN Verification,3,1,None,2026-09-06
+KYC-0177,Address Verification,3,5,Unreadable document,2026-09-21
+KYC-0178,Bank Verification,0,1,Unreadable document,2026-09-16
+KYC-0179,Address Verification,3,1,Upload timeout,2026-09-07
+KYC-0180,Registration,0,0,None,2026-09-21
+KYC-0181,Registration,1,1,None,2026-09-16
+KYC-0182,Human Review,1,0,None,2026-09-06
+KYC-0183,Human Review,1,5,Unreadable document,2026-10-02
+KYC-0184,Human Review,2,2,None,2026-09-30
+KYC-0185,Address Verification,2,4,File too large,2026-10-05
+KYC-0186,PAN Verification,2,2,None,2026-09-28
+KYC-0187,Address Verification,3,0,None,2026-10-01
+KYC-0188,Registration,2,1,None,2026-09-19
+KYC-0189,Registration,2,4,Upload timeout,2026-09-01
+KYC-0190,Human Review,3,1,Unreadable document,2026-09-19
+KYC-0191,PAN Verification,1,3,File too large,2026-09-13
+KYC-0192,Human Review,0,2,None,2026-09-03
+KYC-0193,Address Verification,2,1,Unsupported format,2026-09-09
+KYC-0194,Registration,3,3,Upload timeout,2026-09-12
+KYC-0195,PAN Verification,2,1,None,2026-09-11
+KYC-0196,Address Verification,2,4,Upload timeout,2026-09-22
+KYC-0197,Registration,1,0,None,2026-09-26
+KYC-0198,Human Review,2,0,None,2026-10-05
+KYC-0199,Registration,3,2,None,2026-09-24
+KYC-0200,Registration,0,4,File too large,2026-10-06
+KYC-0201,Address Verification,0,2,Upload timeout,2026-09-30
+KYC-0202,Address Verification,1,1,File too large,2026-09-03
+KYC-0203,Registration,0,0,None,2026-09-16
+KYC-0204,Human Review,3,1,None,2026-10-08
+KYC-0205,PAN Verification,3,1,Unreadable document,2026-09-27
+KYC-0206,Address Verification,3,0,None,2026-09-29
+KYC-0207,PAN Verification,2,1,Unreadable document,2026-10-05
+KYC-0208,Address Verification,0,0,None,2026-09-30
+KYC-0209,Registration,0,5,File too large,2026-09-04
+KYC-0210,Address Verification,1,2,None,2026-09-05
+KYC-0211,Human Review,2,0,None,2026-09-10
+KYC-0212,Human Review,2,0,None,2026-09-12
+KYC-0213,Registration,1,1,File too large,2026-09-01
+KYC-0214,Address Verification,2,2,Unsupported format,2026-09-02
+KYC-0215,PAN Verification,3,2,None,2026-10-04
+KYC-0216,Registration,3,4,Unsupported format,2026-09-24
+KYC-0217,Human Review,1,4,File too large,2026-09-03
+KYC-0218,Human Review,3,0,None,2026-09-26
+KYC-0219,Bank Verification,3,4,File too large,2026-09-05
+KYC-0220,Registration,1,0,None,2026-09-18
+KYC-0221,Human Review,2,5,File too large,2026-09-25
+KYC-0222,Human Review,3,2,None,2026-09-07
+KYC-0223,Registration,1,5,Unreadable document,2026-09-28
+KYC-0224,Bank Verification,2,4,Unreadable document,2026-09-30
+KYC-0225,Bank Verification,3,1,None,2026-09-21
+KYC-0226,Address Verification,3,2,None,2026-09-05
+KYC-0227,Registration,3,1,Unreadable document,2026-09-07
+KYC-0228,Address Verification,0,5,Unreadable document,2026-10-08
+KYC-0229,Human Review,3,1,File too large,2026-09-23
+KYC-0230,Bank Verification,2,1,Unreadable document,2026-10-09
+KYC-0231,Address Verification,1,2,None,2026-09-10
+KYC-0232,Bank Verification,2,1,None,2026-09-08
+KYC-0233,Address Verification,0,4,File too large,2026-10-09
+KYC-0234,Address Verification,2,2,None,2026-09-22
+KYC-0235,Address Verification,3,2,None,2026-09-05
+KYC-0236,PAN Verification,0,1,Unsupported format,2026-10-04
+KYC-0237,PAN Verification,1,1,None,2026-09-24
+KYC-0238,Address Verification,0,5,Unsupported format,2026-09-04
+KYC-0239,PAN Verification,0,0,None,2026-09-18
+KYC-0240,Bank Verification,3,4,File too large,2026-09-27
+KYC-0241,Address Verification,2,0,None,2026-09-28
+KYC-0242,Registration,2,1,None,2026-09-03
+KYC-0243,PAN Verification,0,0,None,2026-09-14
+KYC-0244,Address Verification,2,2,Upload timeout,2026-09-19
+KYC-0245,Address Verification,3,2,None,2026-09-12
+KYC-0246,PAN Verification,2,2,None,2026-09-05
+KYC-0247,Bank Verification,3,1,Unreadable document,2026-09-02
+KYC-0248,Bank Verification,3,3,Upload timeout,2026-10-07
+KYC-0249,Bank Verification,2,4,Unsupported format,2026-09-08
+KYC-0250,Bank Verification,3,0,None,2026-09-24
+KYC-0251,Registration,3,0,None,2026-10-08
+KYC-0252,Bank Verification,2,1,None,2026-09-15
+KYC-0253,Address Verification,0,1,Unsupported format,2026-10-04
+KYC-0254,Human Review,1,1,None,2026-09-16
+KYC-0255,Registration,1,0,None,2026-09-05
+KYC-0256,PAN Verification,3,4,Upload timeout,2026-10-07
+KYC-0257,Human Review,2,2,None,2026-09-21
+KYC-0258,PAN Verification,2,1,None,2026-09-18
+KYC-0259,Human Review,2,0,None,2026-09-30
+KYC-0260,Bank Verification,0,1,None,2026-09-06
+KYC-0261,Human Review,3,4,File too large,2026-10-08
+KYC-0262,Human Review,3,1,Upload timeout,2026-10-07
+KYC-0263,PAN Verification,1,2,None,2026-09-04
+KYC-0264,Bank Verification,0,2,None,2026-10-03
+KYC-0265,PAN Verification,1,1,None,2026-09-24
+KYC-0266,Address Verification,3,4,Upload timeout,2026-09-22
+KYC-0267,Human Review,2,0,None,2026-09-07
+KYC-0268,Human Review,2,3,File too large,2026-10-09
+KYC-0269,PAN Verification,1,2,None,2026-09-23
+KYC-0270,Address Verification,1,4,Upload timeout,2026-10-09
+KYC-0271,Registration,2,2,None,2026-09-09
+KYC-0272,Human Review,2,2,None,2026-09-02
+KYC-0273,Address Verification,3,1,None,2026-09-13
+KYC-0274,PAN Verification,0,2,Upload timeout,2026-09-19
+KYC-0275,Registration,0,2,None,2026-09-22
+KYC-0276,Human Review,1,0,None,2026-09-12
+KYC-0277,Human Review,3,2,Unreadable document,2026-09-03
+KYC-0278,Bank Verification,2,1,None,2026-09-29
+KYC-0279,PAN Verification,1,1,None,2026-09-24
+KYC-0280,Human Review,2,4,Upload timeout,2026-09-25
+KYC-0281,Human Review,1,0,None,2026-09-17
+KYC-0282,Registration,0,3,File too large,2026-10-04
+KYC-0283,Registration,3,1,None,2026-10-03
+KYC-0284,PAN Verification,1,1,Unreadable document,2026-09-29
+KYC-0285,Address Verification,0,4,Upload timeout,2026-09-26
+KYC-0286,Human Review,2,0,None,2026-09-15
+KYC-0287,Registration,2,2,None,2026-09-10
+KYC-0288,PAN Verification,1,2,None,2026-10-01
+KYC-0289,Bank Verification,0,1,File too large,2026-09-17
+KYC-0290,PAN Verification,3,5,Unreadable document,2026-09-08
+KYC-0291,Address Verification,1,0,None,2026-09-27
+KYC-0292,Human Review,0,1,None,2026-10-03
+KYC-0293,Human Review,3,1,None,2026-09-01
+KYC-0294,Human Review,1,1,None,2026-09-06
+KYC-0295,Human Review,0,1,Upload timeout,2026-09-25
+KYC-0296,Bank Verification,2,1,None,2026-09-02
+KYC-0297,Address Verification,1,3,Unsupported format,2026-09-07
+KYC-0298,Human Review,1,3,Unsupported format,2026-09-03
+KYC-0299,Address Verification,3,2,None,2026-10-01
+KYC-0300,PAN Verification,3,1,Unreadable document,2026-09-03
+KYC-0301,Address Verification,2,0,None,2026-09-20
+KYC-0302,Human Review,2,1,None,2026-09-03
+KYC-0303,PAN Verification,2,2,None,2026-09-18
+KYC-0304,Registration,3,4,Unsupported format,2026-09-29
+KYC-0305,Bank Verification,3,1,None,2026-09-24
+KYC-0306,Human Review,3,2,None,2026-09-06
+KYC-0307,Bank Verification,2,2,File too large,2026-09-21
+KYC-0308,Registration,3,1,None,2026-10-09
+KYC-0309,Bank Verification,3,1,None,2026-09-03
+KYC-0310,Address Verification,2,4,File too large,2026-09-04
+KYC-0311,Registration,2,4,File too large,2026-10-03
+KYC-0312,PAN Verification,3,2,Upload timeout,2026-09-03
+KYC-0313,PAN Verification,3,1,None,2026-10-07
+KYC-0314,Registration,2,4,File too large,2026-09-24
+KYC-0315,Bank Verification,1,5,Unsupported format,2026-10-04
+KYC-0316,Address Verification,0,0,None,2026-09-02
+KYC-0317,PAN Verification,0,2,None,2026-09-17
+KYC-0318,Address Verification,2,2,Unsupported format,2026-10-02
+KYC-0319,PAN Verification,1,1,None,2026-09-29
+KYC-0320,Registration,2,3,Unreadable document,2026-09-05
+KYC-0321,Human Review,1,0,None,2026-09-24
+KYC-0322,Human Review,1,0,None,2026-10-02
+KYC-0323,Registration,3,1,None,2026-10-06
+KYC-0324,PAN Verification,0,1,File too large,2026-09-20
+KYC-0325,Bank Verification,3,4,Upload timeout,2026-09-27
+KYC-0326,Human Review,0,2,None,2026-09-29
+KYC-0327,Bank Verification,1,3,File too large,2026-10-06
+KYC-0328,Human Review,0,1,None,2026-09-08
+KYC-0329,Human Review,2,0,None,2026-09-15
+KYC-0330,Address Verification,2,5,Upload timeout,2026-09-06
+KYC-0331,Address Verification,1,1,None,2026-09-20
+KYC-0332,Human Review,1,2,None,2026-10-08
+KYC-0333,Human Review,2,2,None,2026-10-07
+KYC-0334,Registration,0,1,Unreadable document,2026-09-03
+KYC-0335,Human Review,3,2,None,2026-09-02
+KYC-0336,Bank Verification,2,5,Unreadable document,2026-09-20
+KYC-0337,Bank Verification,3,1,None,2026-09-05
+KYC-0338,Registration,3,1,None,2026-09-14
+KYC-0339,Address Verification,2,3,File too large,2026-09-23
+KYC-0340,Bank Verification,0,2,None,2026-09-21
+KYC-0341,PAN Verification,1,1,None,2026-09-10
+KYC-0342,Registration,3,2,None,2026-09-16
+KYC-0343,PAN Verification,2,5,Unreadable document,2026-09-13
+KYC-0344,PAN Verification,3,1,None,2026-09-20
+KYC-0345,Bank Verification,3,2,None,2026-09-16
+KYC-0346,PAN Verification,0,1,File too large,2026-09-19
+KYC-0347,Bank Verification,2,4,File too large,2026-10-05
+KYC-0348,Registration,1,4,Unreadable document,2026-09-17
+KYC-0349,Address Verification,0,3,Unsupported format,2026-09-26
+KYC-0350,Registration,2,2,File too large,2026-10-06
+KYC-0351,Address Verification,2,1,None,2026-09-08
+KYC-0352,PAN Verification,2,4,Upload timeout,2026-09-22
+KYC-0353,Human Review,1,2,Upload timeout,2026-10-09
+KYC-0354,Human Review,0,0,None,2026-09-09
+KYC-0355,Address Verification,3,5,Unreadable document,2026-09-10
+KYC-0356,Human Review,2,2,Unreadable document,2026-09-21
+KYC-0357,PAN Verification,2,2,None,2026-10-08
+KYC-0358,Address Verification,3,2,None,2026-10-07
+KYC-0359,Address Verification,2,1,None,2026-09-08
+KYC-0360,Bank Verification,3,1,File too large,2026-09-17
+KYC-0361,Human Review,3,1,File too large,2026-09-11
+KYC-0362,Human Review,3,5,File too large,2026-09-10
+KYC-0363,PAN Verification,0,0,None,2026-09-29
+KYC-0364,Address Verification,1,2,None,2026-09-27
+KYC-0365,Human Review,0,4,Unsupported format,2026-09-09
+KYC-0366,Human Review,3,2,None,2026-10-04
+KYC-0367,Bank Verification,2,1,None,2026-10-05
+KYC-0368,Address Verification,3,3,File too large,2026-09-13
+KYC-0369,PAN Verification,2,0,None,2026-09-19
+KYC-0370,PAN Verification,2,4,File too large,2026-10-01
+KYC-0371,Address Verification,2,3,File too large,2026-09-08
+KYC-0372,Human Review,3,4,File too large,2026-09-23
+KYC-0373,PAN Verification,0,2,None,2026-09-23
+KYC-0374,Bank Verification,1,4,File too large,2026-09-13
+KYC-0375,Human Review,2,2,None,2026-09-09
+KYC-0376,Registration,1,5,File too large,2026-09-16
+KYC-0377,Registration,1,5,File too large,2026-09-15
+KYC-0378,Registration,3,2,None,2026-09-07
+KYC-0379,PAN Verification,3,0,None,2026-10-01
+KYC-0380,Bank Verification,2,3,File too large,2026-09-19
+KYC-0381,Registration,1,1,Upload timeout,2026-10-05
+KYC-0382,Registration,3,2,Upload timeout,2026-09-12
+KYC-0383,Registration,3,4,Upload timeout,2026-09-12
+KYC-0384,Address Verification,2,1,Unreadable document,2026-10-07
+KYC-0385,Human Review,3,1,None,2026-10-05
+KYC-0386,Human Review,3,2,None,2026-09-18
+KYC-0387,PAN Verification,1,3,Unreadable document,2026-09-30
+KYC-0388,Address Verification,2,1,Unsupported format,2026-09-19
+KYC-0389,Human Review,1,2,File too large,2026-09-26
+KYC-0390,Bank Verification,0,1,None,2026-09-12
+KYC-0391,PAN Verification,2,0,None,2026-09-25
+KYC-0392,PAN Verification,2,1,None,2026-10-08
+KYC-0393,Human Review,1,2,None,2026-09-04
+KYC-0394,Registration,2,1,None,2026-09-08
+KYC-0395,Address Verification,1,0,None,2026-10-01
+KYC-0396,PAN Verification,3,1,None,2026-10-06
+KYC-0397,Bank Verification,1,2,Unsupported format,2026-10-09
+KYC-0398,Registration,2,2,None,2026-09-05
+KYC-0399,Human Review,1,2,None,2026-10-07
+KYC-0400,Human Review,3,2,None,2026-09-08
+KYC-0401,PAN Verification,0,4,Unsupported format,2026-10-03
+KYC-0402,Bank Verification,1,4,Unreadable document,2026-10-03
+KYC-0403,Bank Verification,3,2,None,2026-09-20
+KYC-0404,Registration,1,2,None,2026-10-08
+KYC-0405,Registration,0,2,None,2026-10-05
+KYC-0406,Registration,3,1,Upload timeout,2026-09-03
+KYC-0407,Address Verification,3,2,None,2026-09-24
+KYC-0408,Bank Verification,0,1,None,2026-10-05
+KYC-0409,PAN Verification,0,3,File too large,2026-09-12
+KYC-0410,Human Review,1,2,None,2026-09-01
+KYC-0411,Registration,3,4,Upload timeout,2026-10-05
+KYC-0412,Bank Verification,3,2,Unreadable document,2026-09-23
+KYC-0413,PAN Verification,3,0,None,2026-09-02
+KYC-0414,PAN Verification,0,2,None,2026-09-29
+KYC-0415,Human Review,1,1,File too large,2026-09-03
+KYC-0416,Bank Verification,0,0,None,2026-09-09
+KYC-0417,Human Review,2,2,Upload timeout,2026-10-07
+KYC-0418,Human Review,1,3,Unsupported format,2026-09-20
+KYC-0419,PAN Verification,1,5,Upload timeout,2026-09-27
+KYC-0420,Address Verification,1,2,None,2026-09-28
+KYC-0421,Human Review,3,2,None,2026-10-04
+KYC-0422,Address Verification,1,4,File too large,2026-09-20
+KYC-0423,Bank Verification,1,1,None,2026-09-15
+KYC-0424,Address Verification,3,2,Unreadable document,2026-09-04
+KYC-0425,Human Review,1,2,None,2026-09-25
+KYC-0426,PAN Verification,0,2,None,2026-09-29
+KYC-0427,Address Verification,2,0,None,2026-09-25
+KYC-0428,Human Review,1,1,File too large,2026-10-08
+KYC-0429,Human Review,2,1,None,2026-09-01
+KYC-0430,PAN Verification,3,1,Upload timeout,2026-09-16
+KYC-0431,Human Review,1,4,Unsupported format,2026-10-06
+KYC-0432,Address Verification,3,4,Unsupported format,2026-10-05
+KYC-0433,Address Verification,3,2,None,2026-09-30
+KYC-0434,Registration,2,4,Unreadable document,2026-09-14
+KYC-0435,Address Verification,1,2,None,2026-09-10
+KYC-0436,Registration,3,2,None,2026-09-19
+KYC-0437,PAN Verification,1,1,None,2026-10-02
+KYC-0438,Human Review,2,3,File too large,2026-10-02
+KYC-0439,Bank Verification,1,0,None,2026-10-05
+KYC-0440,Bank Verification,0,2,None,2026-10-04
+KYC-0441,Registration,0,1,Unreadable document,2026-09-01
+KYC-0442,Bank Verification,1,0,None,2026-09-01
+KYC-0443,PAN Verification,3,0,None,2026-10-02
+KYC-0444,Registration,0,1,None,2026-09-02
+KYC-0445,Human Review,2,5,Unsupported format,2026-09-02
+KYC-0446,Human Review,1,4,Unreadable document,2026-09-07
+KYC-0447,Registration,2,0,None,2026-09-23
+KYC-0448,Address Verification,2,1,Unsupported format,2026-09-26
+KYC-0449,Bank Verification,2,2,File too large,2026-09-06
+KYC-0450,Registration,3,1,None,2026-09-04
+KYC-0451,Registration,3,1,Unsupported format,2026-09-28
+KYC-0452,Address Verification,0,1,File too large,2026-09-15
+KYC-0453,PAN Verification,3,5,Upload timeout,2026-09-18
+KYC-0454,Registration,0,3,Upload timeout,2026-09-12
+KYC-0455,Address Verification,1,2,None,2026-09-26
+KYC-0456,Registration,3,0,None,2026-10-05
+KYC-0457,Address Verification,0,2,None,2026-10-03
+KYC-0458,Address Verification,0,0,None,2026-09-22
+KYC-0459,Human Review,3,5,Unsupported format,2026-09-21
+KYC-0460,Registration,3,4,File too large,2026-09-15
+KYC-0461,Address Verification,3,4,File too large,2026-09-12
+KYC-0462,Human Review,2,1,File too large,2026-09-16
+KYC-0463,Registration,1,1,None,2026-09-25
+KYC-0464,Address Verification,2,0,None,2026-09-29
+KYC-0465,Address Verification,1,1,Unsupported format,2026-09-06
+KYC-0466,PAN Verification,3,2,None,2026-09-07
+KYC-0467,Registration,2,0,None,2026-09-25
+KYC-0468,Registration,1,0,None,2026-10-07
+KYC-0469,Human Review,1,0,None,2026-09-18
+KYC-0470,Address Verification,1,0,None,2026-09-28
+KYC-0471,Address Verification,2,0,None,2026-09-17
+KYC-0472,PAN Verification,1,4,Unsupported format,2026-09-30
+KYC-0473,Registration,2,1,None,2026-09-25
+KYC-0474,Address Verification,1,2,None,2026-09-20
+KYC-0475,Address Verification,3,2,File too large,2026-09-21
+KYC-0476,PAN Verification,2,3,Upload timeout,2026-10-02
+KYC-0477,Human Review,3,3,Unsupported format,2026-09-18
+KYC-0478,Bank Verification,1,0,None,2026-10-06
+KYC-0479,Registration,1,4,Upload timeout,2026-09-29
+KYC-0480,Address Verification,3,1,Unreadable document,2026-10-02
+KYC-0481,PAN Verification,2,2,File too large,2026-09-10
+KYC-0482,Bank Verification,3,1,Unsupported format,2026-10-09
+KYC-0483,Bank Verification,3,5,File too large,2026-10-05
+KYC-0484,Registration,0,3,Unsupported format,2026-09-07
+KYC-0485,PAN Verification,1,3,File too large,2026-09-03
+KYC-0486,Human Review,2,4,Upload timeout,2026-09-28
+KYC-0487,Registration,1,0,None,2026-09-29
+KYC-0488,Address Verification,1,2,None,2026-09-23
+KYC-0489,Registration,0,1,None,2026-09-08
+KYC-0490,PAN Verification,1,1,None,2026-10-04
+KYC-0491,Bank Verification,3,1,None,2026-09-21
+KYC-0492,Registration,2,0,None,2026-09-07
+KYC-0493,PAN Verification,1,2,Upload timeout,2026-10-06
+KYC-0494,PAN Verification,1,1,None,2026-09-26
+KYC-0495,PAN Verification,0,1,None,2026-09-13
+KYC-0496,Bank Verification,0,4,File too large,2026-09-14
+KYC-0497,PAN Verification,0,2,None,2026-10-05
+KYC-0498,PAN Verification,0,1,None,2026-09-17
+KYC-0499,Bank Verification,3,2,None,2026-09-26
+KYC-0500,Human Review,1,1,None,2026-09-20

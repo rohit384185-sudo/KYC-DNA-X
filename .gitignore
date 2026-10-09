@@ -1,0 +1,27 @@
+# Python runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Local databases and temporary files
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+# Local generated reports and backups
+app_*backup.py
+*_backup.py
+*_before_*.py
+*.bak
+kyc_case_*.xlsx
+kyc_case_*.pdf
+kyc_case_*.json
+# Editor files
+.vscode/
+.idea/
