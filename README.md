@@ -126,3 +126,44 @@ audit controls, privacy review, compliance assessment and testing.
 This project demonstrates product problem framing,
 explainable rule design, data analytics, investigation workflows,
 human-in-the-loop operations, evaluation and technical prototyping.
+
+---
+
+## Version 2 - Advanced Product Intelligence
+
+### Product Intelligence Lab
+- Reproducible what-if simulation of upload assistance and error resolution
+- Baseline vs hypothetical support-priority comparison
+- Root-cause analysis across onboarding stages and upload-error categories
+- Operational metrics: error rates, repeat uploads, missing requirements and extra attempts
+
+### Reviewer Operations & SLA
+- Fictional case assignment to demonstration reviewers
+- Configurable 24, 48 and 72-hour SLA windows
+- Case aging, overdue detection and resolve/reopen lifecycle
+- SQLite operational events with UTC timestamps
+- Manager, Reviewer and Viewer role demonstrations
+
+### Evidence-Grounded Case Copilot
+- Rule-based generation of case-support summaries
+- Editable draft and regenerate controls
+- Human approval and revision workflow
+- Saved summary decisions and audit events
+
+### Important Limitations
+- This prototype uses synthetic records only.
+- Case Copilot is deterministic; no actual LLM is connected.
+- Support-priority scores are not fraud scores or KYC decisions.
+- Role selection is a UI demonstration, not authenticated authorization.
+- Local SQLite is persistent on the developer machine but is not guaranteed durable on Streamlit Community Cloud.
+- Multi-user production operation requires real identity verification, server-enforced permissions and managed persistent storage.
+- Simulated friction improvements are hypothetical, not observed customer outcomes.
+
+### Running Version 2
+Install requirements and launch:
+
+    python -m pip install -r requirements.txt
+    python -m streamlit run app.py
+
+Launch the application and select Product Intelligence, Reviewer Operations or Case Copilot in the sidebar.
+

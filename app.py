@@ -195,6 +195,9 @@ selected_page = st.sidebar.radio(
         "Advanced Analytics",
         "Human Review Queue",
         "AI Intelligence",
+        "Product Intelligence",
+        "Reviewer Operations",
+        "Case Copilot",
         "Case Investigation"
     ],
     key="kyc_sidebar_navigation"
@@ -1127,4 +1130,23 @@ if selected_page == "Human Review Queue":
 if selected_page == "AI Intelligence":
     from ai_intelligence import render_ai_intelligence
     render_ai_intelligence()
+
+
+if selected_page == "Product Intelligence":
+    from v2_product_intelligence import (
+        render_product_intelligence
+    )
+    render_product_intelligence()
+
+
+if selected_page == "Reviewer Operations":
+    from v2_reviewer_operations import (
+        render_reviewer_operations
+    )
+    render_reviewer_operations()
+
+
+if selected_page == "Case Copilot":
+    from v2_case_copilot import render_case_copilot
+    render_case_copilot()
 
